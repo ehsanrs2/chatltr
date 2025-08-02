@@ -1,0 +1,6 @@
+/* ChatGPT RTL Fixer (FA/EN) - minimal injected styles
+   Ensures isolation of wrapped text runs. */
+
+bdi[dir] {
+  unicode-bidi: isolate;
+}

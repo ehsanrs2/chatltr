@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="popup.css" />
+  <title>ChatGPT RTL Fixer</title>
+</head>
+<body>
+  <label><input type="checkbox" id="enabled" /> Enable on this site</label>
+
+  <div class="row">
+    <label for="mode">Mode</label>
+    <select id="mode">
+      <option value="auto">Auto (dir + bdi)</option>
+      <option value="dir-only">Dir only</option>
+      <option value="wrap-latin">Wrap Latin in RTL</option>
+    </select>
+  </div>
+
+  <label><input type="checkbox" id="skipCode" /> Don't touch code/math</label>
+
+  <script src="popup.js"></script>
+</body>
+</html>
