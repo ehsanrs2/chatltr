@@ -1,0 +1,14 @@
+body {
+  min-width: 200px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.row {
+  margin-top: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+}
